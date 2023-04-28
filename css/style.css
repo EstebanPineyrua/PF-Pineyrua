@@ -1,0 +1,51 @@
+body {
+  background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    background-color: #1a1a1a;
+}
+.imgNavbar {
+  width: 180px;
+}
+.contenedorTextoIndex {
+  display: grid;
+  place-content: center;
+  margin-top: 50px;
+}
+.index {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: white;
+}
+.contenedorIndexBot {
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+  }
+  footer {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .contacto {
+    margin-top: 40px;
+  }
+  .form{
+    color:whitesmoke;
+  }
+  .logosRedes {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .text {
+    width: 60px;
+    height: 60px;
+  } 

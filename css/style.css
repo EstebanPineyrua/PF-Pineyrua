@@ -14,7 +14,7 @@ header{
 .contenedorTextoIndex {
   display: grid;
   place-content: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .index {
   margin-bottom: 40px;
@@ -48,4 +48,19 @@ header{
   .text {
     width: 60px;
     height: 60px;
-  } 
+  }
+.textoProducto{
+  text-align: center;
+  color: whitesmoke;
+}
+
+.img-fluid{
+  width: 1000px;
+  text-align: center;
+}
+.footerFinal{
+  display: flex;
+  color: darkgray;
+  justify-content: center;
+  gap: 50px;
+}

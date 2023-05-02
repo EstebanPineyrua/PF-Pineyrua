@@ -1,28 +1,35 @@
 body {
   background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
 }
-header{
-    position: sticky;
-    top: 0;
+
+header {
+  position: sticky;
+  top: 0;
 }
-.navbar{
-    background-color: #1a1a1a;
+
+.navbar {
+  background-color: #1a1a1a;
 }
+
 .imgNavbar {
   width: 180px;
 }
-.ebike{
+
+.ebike {
   color: whitesmoke;
   text-align: center;
   margin-top: 80px;
 }
-.tituloBosh{
+
+.tituloBosh {
   margin-top: 20px;
-  color: whitesmoke
+  color: whitesmoke;
 }
-.bosh{
+
+.bosh {
   margin-bottom: 100px;
 }
+
 .contenedorTextoIndex {
   font-size: 20px;
   text-align: center;
@@ -30,43 +37,53 @@ header{
   margin-top: 100px;
   margin-bottom: 50px;
 }
+
 .contenedorIndexBot {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    margin-top: 60px;
-    margin-bottom: 50px;
-  }
-  footer {
-    display: flex;
-    max-width: 100%;
-    flex-direction: column;
-  }
-  .contacto {
-    margin-top: 40px;
-  }
-  .form{
-    color:whitesmoke;
-  }
-  .logosRedes {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    gap: 20px;
-  }
-  .text {
-    width: 60px;
-    height: 60px;
-  }
-.textoProducto{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+footer {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.contacto {
+  margin-top: 40px;
+}
+
+.form {
+  color: whitesmoke;
+}
+
+.logosRedes {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.text {
+  width: 60px;
+  height: 60px;
+}
+
+.textoProducto {
   text-align: center;
   color: whitesmoke;
 }
 
-.img-fluid{
+.img-fluid {
   width: 1000px;
   text-align: center;
 }
-.col{
+
+.col {
   color: darkgray;
 }
+
+/*# sourceMappingURL=style.css.map */

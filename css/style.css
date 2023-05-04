@@ -31,6 +31,11 @@ header {
   margin-bottom: 50px;
 }
 
+.textoProducto {
+  text-align: center;
+  color: whitesmoke;
+}
+
 .img-fluid {
   width: 1000px;
   text-align: center;

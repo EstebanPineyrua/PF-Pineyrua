@@ -15,21 +15,6 @@ header {
   width: 180px;
 }
 
-.ebike {
-  color: whitesmoke;
-  text-align: center;
-  margin-top: 80px;
-}
-
-.tituloBosh {
-  margin-top: 20px;
-  color: whitesmoke;
-}
-
-.bosh {
-  margin-bottom: 100px;
-}
-
 .contenedorTextoIndex {
   font-size: 20px;
   text-align: center;
@@ -44,6 +29,26 @@ header {
   color: white;
   margin-top: 60px;
   margin-bottom: 50px;
+}
+
+.img-fluid {
+  width: 1000px;
+  text-align: center;
+}
+
+.ebike {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.tituloBosh {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+
+.bosh {
+  margin-bottom: 100px;
 }
 
 footer {
@@ -70,16 +75,6 @@ footer {
 .text {
   width: 60px;
   height: 60px;
-}
-
-.textoProducto {
-  text-align: center;
-  color: whitesmoke;
-}
-
-.img-fluid {
-  width: 1000px;
-  text-align: center;
 }
 
 .col {

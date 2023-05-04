@@ -36,6 +36,10 @@ header {
   color: whitesmoke;
 }
 
+.contacto {
+  margin-top: 40px;
+}
+
 .img-fluid {
   width: 1000px;
   text-align: center;
@@ -60,10 +64,6 @@ footer {
   display: flex;
   max-width: 100%;
   flex-direction: column;
-}
-
-.contacto {
-  margin-top: 40px;
 }
 
 .form {

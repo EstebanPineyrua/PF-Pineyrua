@@ -1,0 +1,83 @@
+@media (max-width:768px){
+    .accordion{
+        margin-top: 0px;
+    }
+    .textoPortada{
+        font-size: 13px;
+        color: white;
+        position: absolute;
+        top: 15%;
+      }
+      .textoFuel{
+        font-size: 13px;
+        color: white;
+        position: absolute;
+        top: 19%;
+      }
+      .container{
+        margin-top: 50px;
+      }
+      .textoBicicletas{
+        text-align: center;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 45px;
+      }
+      .raza{
+        background-color: black;
+      }
+      .razaFuel{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        text-align: center;
+
+      }
+      .textoFuelExe{
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        top: 110%;
+        }
+        .gap{
+            margin-top: 50px;
+        }
+        .bosques{
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            margin-bottom: 100px;
+        }
+        .ceroUno{
+            color: whitesmoke;
+            font-size: 30px;
+            text-align: start;
+        }
+        .ceroUnoUno{
+            color: white;
+            text-align: start;
+            font-size: 10px;
+        }
+        .ceroDos{
+            color: whitesmoke;
+            font-size: 30px;
+            text-align: start;
+        }
+        .ceroDosDos{
+            color: white;
+            text-align: start;
+            font-size: 10px;
+        }
+        .ceroTres{
+            color: whitesmoke;
+            font-size: 30px;
+            text-align: start;
+        }
+        .ceroTresTres{
+            color: white;
+            text-align: start;
+            font-size: 10px;
+        }
+}

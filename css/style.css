@@ -1,3 +1,164 @@
+@media (max-width: 768px) {
+  .accordion {
+    margin-top: 0px;
+  }
+  .textoPortada {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 15%;
+  }
+  .textoFuel {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 19%;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .textoBicicletas {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 45px;
+  }
+  .raza {
+    background-color: black;
+  }
+  .razaFuel {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .textoFuelExe {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 110%;
+  }
+  .gap {
+    margin-top: 50px;
+  }
+  .bosques {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+  .ceroUno {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroUnoUno {
+    color: white;
+    text-align: start;
+    font-size: 10px;
+  }
+  .ceroDos {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroDosDos {
+    color: white;
+    text-align: start;
+    font-size: 10px;
+  }
+  .ceroTres {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroTresTres {
+    color: white;
+    text-align: start;
+    font-size: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .accordion {
+    margin-top: 50px;
+  }
+  .textoPortada {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 40%;
+  }
+  .textoFuel {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .textoBicicletas {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 45px;
+  }
+  .raza {
+    background-color: black;
+  }
+  .razaFuel {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .textoFuelExe {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 220%;
+  }
+  .gap {
+    margin-top: 200px;
+  }
+  .bosques {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 200px;
+  }
+  .ceroUno {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroUnoUno {
+    color: white;
+    text-align: start;
+  }
+  .ceroDos {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroDosDos {
+    color: white;
+    text-align: start;
+  }
+  .ceroTres {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroTresTres {
+    color: white;
+    text-align: start;
+  }
+}
 body {
   background-image: url(../img/1920x1080-Fondo-negro-de-cuero.jpg);
 }
@@ -5,6 +166,7 @@ body {
 header {
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 
 .navbar {
@@ -31,18 +193,12 @@ header {
   margin-bottom: 50px;
 }
 
-.textoProducto {
-  text-align: center;
-  color: whitesmoke;
-}
-
 .gapProducto {
   margin-top: 40px;
 }
 
-.img-fluid {
-  width: 1000px;
-  text-align: center;
+li {
+  display: inline;
 }
 
 .mapaNosotros {
@@ -62,6 +218,18 @@ header {
 
 .bosh {
   margin-bottom: 100px;
+}
+
+.listaFuelExe:hover {
+  color: white;
+  text-decoration: underline white;
+}
+
+.listaFuelExe {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
 }
 
 footer {

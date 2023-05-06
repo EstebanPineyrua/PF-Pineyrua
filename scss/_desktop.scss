@@ -1,80 +1,84 @@
-@media (min-width:1024px){
-    .accordion{
-        margin-top: 50px;
-    }
-    .textoPortada{
-        font-size: 50px;
-        color: white;
-        position: absolute;
-        top: 40%;
-      }
-      .textoFuel{
-        font-size: 50px;
-        color: white;
-        position: absolute;
-        top: 50%;
-      }
-      }
-      .textoBicicletas{
-        text-align: center;
-        color: whitesmoke;
-        text-decoration: none;
-        font-size: 45px;
-      }
-      .raza{
-        background-color: black;
-      }
-      .razaFuel{
-        font-size: 25px;
-        color: white;
-        text-decoration: none;
-        margin-top: 20px;
-        margin-bottom: 100px;
-        text-align: center;
-
-      }
-      .textoFuelExe{
-        font-size: 50px;
-        color: white;
-        position: absolute;
-        top: 220%;
-        }
-        .gap{
-            margin-top: 200px;
-        }
-        .bosques{
-            text-align: center;
-            color: white;
-            font-size: 20px;
-            margin-bottom: 200px;
-        }
-        .ceroUno{
-            color: whitesmoke;
-            font-size: 30px;
-            text-align: start;
-        }
-        .ceroUnoUno{
-            color: white;
-            text-align: start;
-            font-size: 13px;
-        }
-        .ceroDos{
-            color: whitesmoke;
-            font-size: 30px;
-            text-align: start;
-        }
-        .ceroDosDos{
-            color: white;
-            text-align: start;
-            font-size: 13px;
-        }
-        .ceroTres{
-            color: whitesmoke;
-            font-size: 30px;
-            text-align: start;
-        }
-        .ceroTresTres{
-            color: white;
-            text-align: start;
-            font-size: 13px;
-        }
+@media (min-width: 1024px) {
+  .accordion {
+    margin-top: 50px;
+  }
+  .textoPortada {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 40%;
+  }
+  .textoFuel {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+  }
+.textoBicicletas {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 45px;
+}
+.raza {
+  background-color: black;
+}
+.razaFuelExe {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.razaFuel {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  margin-top: 60px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.textoFuelExe{
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 220%;
+}
+.bosques {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+.ceroUno {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: start;
+}
+.ceroUnoUno {
+  color: white;
+  text-align: start;
+  font-size: 13px;
+}
+.ceroDos {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: start;
+}
+.ceroDosDos {
+  color: white;
+  text-align: start;
+  font-size: 13px;
+}
+.ceroTres {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: start;
+}
+.ceroTresTres {
+  color: white;
+  text-align: start;
+  font-size: 13px;
+}
+}

@@ -2,6 +2,9 @@
   .accordion {
     margin-top: 0px;
   }
+  .img-fluid {
+    width: 100%;
+  }
   .portada {
     position: relative;
     display: inline-block;
@@ -93,6 +96,9 @@
 @media (min-width: 1024px) {
   .accordion {
     margin-top: 50px;
+  }
+  .img-fluid {
+    width: 50%;
   }
   .portada {
     position: relative;
@@ -223,8 +229,6 @@ header {
   font-size: 20px;
   text-align: center;
   color: white;
-  margin-top: 60px;
-  margin-bottom: 50px;
 }
 
 .gapProducto {
@@ -236,7 +240,7 @@ li {
 }
 
 .btn {
-  width: 100px;
+  width: 150px;
   height: 50px;
   margin-bottom: 20px;
 }
@@ -260,16 +264,8 @@ li {
   margin-bottom: 100px;
 }
 
-.listaFuelExe:hover {
-  color: white;
-  text-decoration: underline white;
-}
-
-.listaFuelExe {
+.listaElectricas {
   text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
 }
 
 footer {

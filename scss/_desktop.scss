@@ -2,17 +2,24 @@
   .accordion {
     margin-top: 50px;
   }
+  .portada{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
   .textoPortada {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 20%;
+    left: 2%;
   }
   .textoFuel {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 30%;
+    left: 2%;
   }
 .textoBicicletas {
   text-align: center;
@@ -50,6 +57,18 @@
   color: white;
   font-size: 20px;
   margin-bottom: 200px;
+}
+.imagenFuelexePortada{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.textoFuele{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 42%;
+  left: 5%;
 }
 .ceroUno {
   color: whitesmoke;

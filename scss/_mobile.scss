@@ -182,4 +182,43 @@
     font-size: 15px;
     color: whitesmoke;
 }
+.modoAsistencia{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 25px;
+  color: whitesmoke;
+}
+.contenedorTres {
+  display: flex;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+.imgTres{
+  margin: 10px;
+  text-align: center;
+}
+
+.breeze {
+  max-width: 100%;
+  height: auto;
+}
+.river{
+  max-width: 110%;
+  height: auto;
+}
+.rocket{
+  max-width: 110%;
+  height: 42%;
+}
+.texto {
+  margin-top: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.subtituloTexto{
+  color: whitesmoke;
+  font-size: 12px;
+}
 }

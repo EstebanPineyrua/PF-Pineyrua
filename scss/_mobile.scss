@@ -37,18 +37,19 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
-    margin-top: 5px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
-  }
-  .gap {
-    margin-top: 50px;
+    max-width: 100%;
+    padding-left: 50px;
   }
   .bosques {
     text-align: center;
     color: white;
     font-size: 15px;
     margin-bottom: 100px;
+    max-width: 110%;
+    padding-left: 10px;
   }
   .imagenFuelexePortada{
     position: relative;
@@ -208,8 +209,8 @@
   height: auto;
 }
 .rocket{
-  max-width: 110%;
-  height: auto;
+  max-width: 100%;
+  height: 42%;
 }
 .texto {
   margin-top: 10px;
@@ -246,5 +247,16 @@
   position: absolute;
   top: 50%;
   left: 13%;
+}
+.emondaLigera{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.emondaCeleste{
+  font-size: 15px;
+  color: whitesmoke;
+  text-align: center;
 }
 }

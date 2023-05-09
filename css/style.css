@@ -207,7 +207,7 @@
   }
   .rocket {
     max-width: 110%;
-    height: auto;
+    height: 35%;
   }
   .texto {
     margin-top: 10px;
@@ -536,6 +536,11 @@ li {
 
 .mapaNosotros {
   text-align: center;
+}
+
+.form-label {
+  font-size: 30px;
+  color: whitesmoke;
 }
 
 .ebike {

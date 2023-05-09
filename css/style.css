@@ -219,6 +219,18 @@
     color: whitesmoke;
     font-size: 12px;
   }
+  .ecalSlim {
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .textoSenderos {
+    font-size: 11px;
+    color: whitesmoke;
+    position: absolute;
+    top: 30%;
+  }
 }
 @media (min-width: 1024px) {
   .accordion {
@@ -462,6 +474,18 @@
     text-align: center;
     font-size: 40px;
     color: whitesmoke;
+  }
+  .ecalSlim {
+    margin-top: 120px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .textoSenderos {
+    font-size: 52px;
+    color: whitesmoke;
+    position: absolute;
+    top: 30%;
   }
 }
 body {

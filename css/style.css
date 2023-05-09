@@ -207,7 +207,7 @@
   }
   .rocket {
     max-width: 110%;
-    height: 35%;
+    height: auto;
   }
   .texto {
     margin-top: 10px;
@@ -230,6 +230,20 @@
     color: whitesmoke;
     position: absolute;
     top: 30%;
+  }
+  .portadaEmonda {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 11%;
+  }
+  .textoEmonda {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 13%;
   }
 }
 @media (min-width: 1024px) {
@@ -486,6 +500,20 @@
     color: whitesmoke;
     position: absolute;
     top: 30%;
+  }
+  .portadaEmonda {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+  .textoEmonda {
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 31%;
   }
 }
 body {

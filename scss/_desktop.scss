@@ -68,7 +68,7 @@
 }
 .textoFuele{
   font-size: 60px;
-  color: rgb(255, 255, 255);
+  color:whitesmoke;
   position: absolute;
   top: 42%;
   left: 5%;
@@ -102,5 +102,88 @@
   color: white;
   text-align: start;
   font-size: 13px;
+}
+.portadaEcaliber{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.textoEcaliber{
+  font-size: 60px;
+  color: whitesmoke;
+  position: absolute;
+  left: 48%;
+  top: 10%;
+}
+.textoPortadaEcaliber{
+  font-size: 60px;
+  color:whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.gapEcaliber{
+  margin-bottom: 100px;
+}
+.contenedorEcaliber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columnaEcaliber{
+  width: 50%;
+  text-align: center;
+}
+.columnaTextoEcaliber{
+  width: 50%;
+  text-align: center;
+}
+.ecalChecker{
+  width: 100%;
+  height: auto;
+}
+.ecaliberBotGeometria{
+  order:1;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.ecaliberBotChecker{
+  order: 1;
+  color: whitesmoke;
+  font-size: 15px;
+}
+.ecaliberGeometria{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.ecaliberChecker{
+  font-size: 15px;
+  color: whitesmoke;
+}
+.contenedorBotEcaliber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columnaBotEcaliber{
+  margin-bottom: 20px;
+}
+.columnaImagenBotEcaliber{
+  margin-bottom: 20px;
+  width: 80%;
+  text-align: center;
+}
+.ecalBotChecker{
+  width: 100%;
+  height: auto;
+}
+.ecaliberBotGeometria{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.ecaliberBotChecker{
+  color: whitesmoke;
+  font-size: 15px;
 }
 }

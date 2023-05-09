@@ -57,7 +57,7 @@
   }
   .textoFuele {
     font-size: 17px;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     position: absolute;
     top: 42%;
     left: 1%;
@@ -91,6 +91,78 @@
     color: white;
     text-align: start;
     font-size: 10px;
+  }
+  .portadaEcaliber {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .textoEcaliber {
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    left: 45%;
+    top: 5%;
+  }
+  .textoPortadaEcaliber {
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+  }
+  .contenedorEcaliber {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+  }
+  .columnaEcaliber {
+    order: 2;
+    margin-bottom: 100px;
+  }
+  .columnaTextoEcaliber {
+    order: 1;
+    margin-top: 50px;
+  }
+  .ecalChecker {
+    width: 100%;
+    height: auto;
+  }
+  .ecaliberGeometria {
+    font-size: 30px;
+    color: whitesmoke;
+  }
+  .ecaliberChecker {
+    font-size: 15px;
+    color: whitesmoke;
+  }
+  .contenedorBotEcaliber {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+  }
+  .columnaBotEcaliber {
+    margin-bottom: 20px;
+  }
+  .columnaImagenBotEcaliber {
+    order: 1;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .ecalBotChecker {
+    width: 100%;
+    height: auto;
+  }
+  .ecaliberBotGeometria {
+    order: 1;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .ecaliberBotChecker {
+    color: whitesmoke;
+    font-size: 15px;
   }
 }
 @media (min-width: 1024px) {
@@ -163,7 +235,7 @@
   }
   .textoFuele {
     font-size: 60px;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     position: absolute;
     top: 42%;
     left: 5%;
@@ -197,6 +269,89 @@
     color: white;
     text-align: start;
     font-size: 13px;
+  }
+  .portadaEcaliber {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .textoEcaliber {
+    font-size: 60px;
+    color: whitesmoke;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+  }
+  .textoPortadaEcaliber {
+    font-size: 60px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+  .gapEcaliber {
+    margin-bottom: 100px;
+  }
+  .contenedorEcaliber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .columnaEcaliber {
+    width: 50%;
+    text-align: center;
+  }
+  .columnaTextoEcaliber {
+    width: 50%;
+    text-align: center;
+  }
+  .ecalChecker {
+    width: 100%;
+    height: auto;
+  }
+  .ecaliberBotGeometria {
+    order: 1;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .ecaliberBotChecker {
+    order: 1;
+    color: whitesmoke;
+    font-size: 15px;
+  }
+  .ecaliberGeometria {
+    font-size: 30px;
+    color: whitesmoke;
+  }
+  .ecaliberChecker {
+    font-size: 15px;
+    color: whitesmoke;
+  }
+  .contenedorBotEcaliber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .columnaBotEcaliber {
+    margin-bottom: 20px;
+  }
+  .columnaImagenBotEcaliber {
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  .ecalBotChecker {
+    width: 100%;
+    height: auto;
+  }
+  .ecaliberBotGeometria {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .ecaliberBotChecker {
+    color: whitesmoke;
+    font-size: 15px;
   }
 }
 body {

@@ -756,6 +756,10 @@ li {
   color: whitesmoke;
 }
 
+.formulario {
+  width: 800px;
+}
+
 .ebike {
   color: whitesmoke;
   text-align: center;

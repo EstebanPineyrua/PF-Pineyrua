@@ -85,7 +85,7 @@
 .ceroUnoUno {
   color: white;
   text-align: start;
-  font-size: 13px;
+  font-size: 15px;
 }
 .ceroDos {
   color: whitesmoke;
@@ -95,7 +95,7 @@
 .ceroDosDos {
   color: white;
   text-align: start;
-  font-size: 13px;
+  font-size: 15px;
 }
 .ceroTres {
   color: whitesmoke;
@@ -105,7 +105,7 @@
 .ceroTresTres {
   color: white;
   text-align: start;
-  font-size: 13px;
+  font-size: 15px;
 }
 .portadaEcaliber{
   position: relative;
@@ -271,22 +271,86 @@
   position: absolute;
   top: 48%;
   left: 31%;
-}
-.rowEmonda{
-  max-width: 80%;
-  padding-left: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .emondaLigera{
-  grid-area: center;
-  text-align: center;
   color: whitesmoke;
-  font-size: 50px;
-  margin-top: 100px;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .emondaCeleste{
-  grid-area: center;
-  font-size: 22px;
   color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaRapidaTexto{
+  color: whitesmoke;
+  font-size: 40px;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.emondaSlr{
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sesenta{
+  width: 110%;
+}
+.sesentaTexto{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: whitesmoke;
+  padding-left: 40px;
+}
+.ocho{
+  width: 110%;
+}
+.viento{
+  width: 110%;
+}
+.emondaEscaladoraTexto{
+  font-size: 40px;
+  color:whitesmoke ;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaGeneracionTexto{
+  font-size: 19px;
+  color: whitesmoke;
+  margin-bottom: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaRendimiento{
+  font-size: 40px;
+  color: whitesmoke;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lizzi{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+}
+
+.textoLizzi {
+  position: absolute; 
+  color: whitesmoke;
+  text-align: center; 
+  left: 50%;
+}
+.hLizzi {
+  font-size: 2rem;
+}
+.plizzi {
+  font-size: 1.4rem;
 }
 }

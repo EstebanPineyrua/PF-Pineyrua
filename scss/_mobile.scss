@@ -247,16 +247,85 @@
   position: absolute;
   top: 50%;
   left: 13%;
+  
 }
 .emondaLigera{
-  text-align: center;
   color: whitesmoke;
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .emondaCeleste{
   font-size: 15px;
   color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaRapidaTexto{
+  color: whitesmoke;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaSlr{
+  color: whitesmoke;
+  font-size: 15px;
   text-align: center;
+  margin-bottom: 30px;
+}
+.sesenta{
+  width: 110%;
+}
+.sesentaTexto{
+  font-size: 15px;
+  color: whitesmoke;
+  padding-left: 10px;
+}
+.ocho{
+  width: 110%;
+}
+.viento{
+  width: 110%;
+}
+.emondaEscaladoraTexto{
+  font-size: 30px;
+  color:whitesmoke ;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaRendimiento{
+  font-size: 30px;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emondaGeneracionTexto{
+  font-size: 15px;
+  color: whitesmoke;
+  margin-bottom: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lizzi{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+}
+
+.textoLizzi {
+  position: absolute; 
+  color: whitesmoke;
+  text-align: center; 
+  left: 20%;
+}
+.hLizzi {
+  font-size: 11px;
+}
+.plizzi {
+  font-size: 10px;
 }
 }

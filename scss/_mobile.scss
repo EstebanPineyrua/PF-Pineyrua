@@ -328,4 +328,58 @@
 .plizzi {
   font-size: 10px;
 }
+.containerCrockett {
+  position: relative;
+  display: inline-block;
+}
+
+.textoContainer {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.crockettCiclocross{
+  color: whitesmoke;
+  font-size: 35px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.crockettCompañera{
+  color: whitesmoke;
+  font-size: 15px;
+  margin-bottom: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contenedorCrockett{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contenedorCrockett2{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-grid;
+}
+
+.cuadroCrockett {
+font-size: 30px;
+color: whitesmoke;
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+text-align: center;
+}
+.hombroCrockett {
+font-size: 15px;
+color: whitesmoke;
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+text-align: center;
+}
 }

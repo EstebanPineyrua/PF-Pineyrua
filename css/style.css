@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 768px) {
   .formulario {
     width: 380px;
@@ -323,6 +324,56 @@
   }
   .plizzi {
     font-size: 10px;
+  }
+  .containerCrockett {
+    position: relative;
+    display: inline-block;
+  }
+  .textoContainer {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+  .crockettCiclocross {
+    color: whitesmoke;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .crockettCompañera {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 70px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .contenedorCrockett {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedorCrockett2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+  }
+  .cuadroCrockett {
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+  .hombroCrockett {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
   }
 }
 @media (min-width: 1024px) {
@@ -699,6 +750,54 @@
   }
   .plizzi {
     font-size: 1.4rem;
+  }
+  .containerCrockett {
+    position: relative;
+    display: inline-block;
+  }
+  .textoContainer {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+  .crockettCiclocross {
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .crockettCompañera {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .contenedorCrockett {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedorCrockett2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcf1f1;
+  }
+  .cuadroCrockett {
+    font-size: 30px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .hombroCrockett {
+    font-size: 15px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 }
 body {

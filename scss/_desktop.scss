@@ -1,22 +1,22 @@
 @media (min-width: 1024px) {
-  .formulario{
+  .formulario {
     width: 800px;
-}
-  .img-fluid{
+  }
+  .img-fluid {
     width: 50%;
   }
-  .portada{
+  .portada {
     position: relative;
     display: inline-block;
     text-align: center;
-}
+  }
   .textoPortada {
     font-size: 40px;
     color: white;
     position: absolute;
     top: 20%;
     left: 2%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .textoFuel {
     font-size: 40px;
@@ -24,357 +24,409 @@
     position: absolute;
     top: 30%;
     left: 10%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
-.textoBicicletas {
-  text-align: center;
-  color: whitesmoke;
-  text-decoration: none;
-  font-size: 45px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  .textoBicicletas {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .raza {
+    background-color: black;
+  }
+  .razaFuelExe {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .razaFuel {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+    max-width: 80%;
+    padding-left: 500px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .textoFuelExe {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 220%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .bosques {
+    max-width: 80%;
+    padding-left: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .imagenFuelexePortada {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .textoFuele {
+    font-size: 60px;
+    color: whitesmoke;
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ceroUno {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroUnoUno {
+    color: white;
+    text-align: start;
+    font-size: 15px;
+  }
+  .ceroDos {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroDosDos {
+    color: white;
+    text-align: start;
+    font-size: 15px;
+  }
+  .ceroTres {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: start;
+  }
+  .ceroTresTres {
+    color: white;
+    text-align: start;
+    font-size: 15px;
+  }
+  .portadaEcaliber {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .textoEcaliber {
+    font-size: 60px;
+    color: whitesmoke;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .textoPortadaEcaliber {
+    font-size: 60px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .contenedorEcaliber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .columnaEcaliber {
+    width: 50%;
+    text-align: center;
+  }
+  .columnaTextoEcaliber {
+    width: 50%;
+    text-align: center;
+  }
+  .ecalChecker {
+    width: 100%;
+    height: auto;
+  }
+  .ecaliberBotGeometria {
+    order: 1;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ecaliberBotChecker {
+    order: 1;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ecaliberGeometria {
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ecaliberChecker {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .contenedorBotEcaliber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .columnaBotEcaliber {
+    margin-bottom: 20px;
+  }
+  .columnaImagenBotEcaliber {
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  .ecalBotChecker {
+    width: 100%;
+    height: auto;
+  }
+  .ecaliberBotGeometria {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ecaliberBotChecker {
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ligera {
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ecalLigera {
+    margin-top: 20px;
+  }
+  .tituloEcaliber {
+    font-size: 40px;
+    margin-top: 15px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .subTituloEcaliber {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .contenedorTres {
+    display: flex;
+    justify-content: start;
+    margin-top: 80px;
+  }
+
+  .imgTres {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .breeze {
+    max-width: 100%;
+    height: auto;
+  }
+  .river {
+    max-width: 100%;
+    height: auto;
+  }
+  .rocket {
+    max-width: 100%;
+    height: auto;
+  }
+  .texto {
+    margin-top: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .subtituloTexto {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .modoAsistencia {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ecalSlim {
+    margin-top: 120px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .textoSenderos {
+    font-size: 52px;
+    color: whitesmoke;
+    position: absolute;
+    top: 30%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .portadaEmonda {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .textoEmonda {
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 31%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .emondaLigera {
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .emondaCeleste {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .emondaRapidaTexto {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .emondaSlr {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sesenta {
+    width: 110%;
+  }
+  .sesentaTexto {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    padding-left: 40px;
+  }
+  .ocho {
+    width: 110%;
+  }
+  .viento {
+    width: 110%;
+  }
+  .emondaEscaladoraTexto {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .emondaGeneracionTexto {
+    font-size: 19px;
+    color: whitesmoke;
+    margin-bottom: 80px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .emondaRendimiento {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .lizzi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .textoLizzi {
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    left: 50%;
+  }
+  .hLizzi {
+    font-size: 2rem;
+  }
+  .plizzi {
+    font-size: 1.4rem;
+  }
+
+  .containerCrockett {
+    position: relative;
+    display: inline-block;
+  }
+
+  .textoContainer {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+
+  .crockettCiclocross{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .crockettCompañera{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.raza {
-  background-color: black;
-}
-.razaFuelExe {
-  font-size: 25px;
-  color: white;
-  text-decoration: none;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.razaFuel {
-  font-size: 25px;
-  color: white;
-  text-decoration: none;
-  margin-top: 60px;
-  margin-bottom: 100px;
-  text-align: center;
-  max-width: 80%;
-  padding-left: 500px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.textoFuelExe{
-  font-size: 50px;
-  color: white;
-  position: absolute;
-  top: 220%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.bosques {
-  max-width: 80%;
-  padding-left: 500px;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-bottom: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.imagenFuelexePortada{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-.textoFuele{
-  font-size: 60px;
-  color:whitesmoke;
-  position: absolute;
-  top: 42%;
-  left: 5%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ceroUno {
-  color: whitesmoke;
-  font-size: 30px;
-  text-align: start;
-}
-.ceroUnoUno {
-  color: white;
-  text-align: start;
-  font-size: 15px;
-}
-.ceroDos {
-  color: whitesmoke;
-  font-size: 30px;
-  text-align: start;
-}
-.ceroDosDos {
-  color: white;
-  text-align: start;
-  font-size: 15px;
-}
-.ceroTres {
-  color: whitesmoke;
-  font-size: 30px;
-  text-align: start;
-}
-.ceroTresTres {
-  color: white;
-  text-align: start;
-  font-size: 15px;
-}
-.portadaEcaliber{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 100px;
-}
-.textoEcaliber{
-  font-size: 60px;
-  color: whitesmoke;
-  position: absolute;
-  left: 48%;
-  top: 10%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.textoPortadaEcaliber{
-  font-size: 60px;
-  color:whitesmoke;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.contenedorEcaliber{
+.contenedorCrockett{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
-.columnaEcaliber{
-  width: 50%;
-  text-align: center;
-}
-.columnaTextoEcaliber{
-  width: 50%;
-  text-align: center;
-}
-.ecalChecker{
-  width: 100%;
-  height: auto;
-}
-.ecaliberBotGeometria{
-  order:1;
-  color: whitesmoke;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ecaliberBotChecker{
-  order: 1;
-  color: whitesmoke;
-  font-size: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ecaliberGeometria{
-  font-size: 30px;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ecaliberChecker{
-  font-size: 15px;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.contenedorBotEcaliber{
+.contenedorCrockett2{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:  #dcf1f1 ;
 }
-.columnaBotEcaliber{
-  margin-bottom: 20px;
-}
-.columnaImagenBotEcaliber{
-  margin-bottom: 20px;
-  width: 80%;
-  text-align: center;
-}
-.ecalBotChecker{
-  width: 100%;
-  height: auto;
-}
-.ecaliberBotGeometria{
-  text-align: center;
-  color: whitesmoke;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ecaliberBotChecker{
-  color: whitesmoke;
-  font-size: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ligera{
-  font-size: 50px;
-  text-align: center;
-  color: whitesmoke;
-  margin-top: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ecalLigera{
-  margin-top: 20px;
-}
-.tituloEcaliber{
-  font-size: 40px;
-  margin-top: 15px;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.subTituloEcaliber{
-  font-size: 20px;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.contenedorTres {
-  display: flex;
-  justify-content: start;
-  margin-top: 80px;
-}
-
-.imgTres{
-  margin: 10px;
-  text-align: center;
-}
-
-.breeze {
-  max-width: 100%;
-  height: auto;
-}
-.river{
-  max-width: 100%;
-  height: auto;
-}
-.rocket{
-  max-width: 100%;
-  height: auto;
-}
-.texto {
-  margin-top: 10px;
-  font-weight: bold;
-  color: whitesmoke;
+.cuadroCrockett {
   font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.subtituloTexto{
-  color: whitesmoke;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.modoAsistencia{
-  margin-top: 120px;
-  text-align: center;
-  font-size: 40px;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ecalSlim{
-  margin-top: 120px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-.textoSenderos{
-  font-size: 52px;
-  color: whitesmoke;
-  position: absolute;
-  top: 30%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.portadaEmonda{
-  font-size: 40px;
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.textoEmonda{
-  font-size: 38px;
-  color: white;
-  position: absolute;
-  top: 48%;
-  left: 31%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.emondaLigera{
-  color: whitesmoke;
-  font-size: 40px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.emondaCeleste{
-  color: whitesmoke;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.emondaRapidaTexto{
-  color: whitesmoke;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-.emondaSlr{
-  color: whitesmoke;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.sesenta{
-  width: 110%;
-}
-.sesentaTexto{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 25px;
-  color: whitesmoke;
-  padding-left: 40px;
-}
-.ocho{
-  width: 110%;
-}
-.viento{
-  width: 110%;
-}
-.emondaEscaladoraTexto{
-  font-size: 40px;
-  color:whitesmoke ;
-  margin-top: 120px;
-  margin-bottom: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.emondaGeneracionTexto{
-  font-size: 19px;
-  color: whitesmoke;
-  margin-bottom: 80px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.emondaRendimiento{
-  font-size: 40px;
-  color: whitesmoke;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.lizzi{
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  position: relative; 
-}
-
-.textoLizzi {
-  position: absolute; 
-  color: whitesmoke;
-  text-align: center; 
-  left: 50%;
-}
-.hLizzi {
-  font-size: 2rem;
-}
-.plizzi {
-  font-size: 1.4rem;
+.hombroCrockett {
+  font-size: 15px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 }

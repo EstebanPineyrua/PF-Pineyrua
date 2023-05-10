@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
-  .accordion {
-    margin-top: 0px;
+  .formulario {
+    width: 380px;
   }
   .img-fluid {
     width: 100%;
@@ -326,8 +326,8 @@
   }
 }
 @media (min-width: 1024px) {
-  .accordion {
-    margin-top: 50px;
+  .formulario {
+    width: 800px;
   }
   .img-fluid {
     width: 50%;
@@ -754,10 +754,6 @@ li {
 .form-label {
   font-size: 30px;
   color: whitesmoke;
-}
-
-.formulario {
-  width: 800px;
 }
 
 .ebike {

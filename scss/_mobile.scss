@@ -241,17 +241,6 @@
   color: whitesmoke;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.contenedorTres {
-  display: flex;
-  justify-content: start;
-  margin-top: 50px;
-}
-
-.imgTres{
-  margin: 10px;
-  text-align: center;
-}
-
 .breeze {
   max-width: 100%;
   height: auto;
@@ -484,7 +473,7 @@ text-align: center;
 .colorAsis{
   background-color:  #1c1c1c ;
 }
-.imgChicasRail{
+.imgChicas{
   width: 100%;
 }
 .textosChicosRail{
@@ -518,18 +507,6 @@ text-align: center;
   margin-top: 60px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.contenedorCuatro {
-  display: flex;
-  justify-content: start;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.imgCuatro {
-  margin: 10px;
-  text-align: center;
-}
 .textoEncuentra{
   position: absolute;
   top: 55%;
@@ -540,24 +517,149 @@ text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
-.powerflyEncuentra{
+.powerflyPortada{
   position: absolute;
   top: 42%;
-  left: 30%;
+  left: 10%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
   font-size: 15px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
-.powerflyEncuentraSub{
+.powerflyPortadaSub{
   position: absolute;
-  top: 60%;
-  left: 35%;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 9px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.powerflyAventuras{
+  margin-top: 50px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.powerflyConquista{
+  margin-top: 20px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.powerflyMando{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.powerflyPedales{
+  color: whitesmoke;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.powerflyEncuentra{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.madoneSeptima{
+  margin-top: 100px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textosChicosMadone{
+  font-size: 9px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtextosChicosMadone{
+  font-size: 8px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.azul{
+ background-color:  #467bad ;
+ margin-top: -67px;
+}
+.encontraMadone{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.speedPortada{
+  position: absolute;
+  top: 42%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.speedSubPortada{
+  position: absolute;
+  top: 52%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
   font-size: 15px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+}
+.speedRapida{
+  margin-top: 100px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.speedConcept{
+  margin-top: 20px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.speedGap{
+  margin-top: 100px;
+}
+.textosChicosSpeed{
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtextoSpeed{
+  font-size: 10px;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.speedTriunfar {
+  font-size: 15px;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.speedVanDijk{
+  font-size: 15px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 }

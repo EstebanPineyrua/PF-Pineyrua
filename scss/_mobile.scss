@@ -13,6 +13,7 @@
   .textoPortada {
     font-size: 15px;
     color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     position: absolute;
     top: 15%;
     left: 2%;
@@ -20,6 +21,7 @@
   .textoFuel {
     font-size: 15px;
     color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     position: absolute;
     top: 25%;
     left: 2%;
@@ -27,6 +29,7 @@
   .textoBicicletas {
     text-align: center;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
     font-size: 45px;
   }
@@ -36,20 +39,15 @@
   .razaFuel {
     font-size: 20px;
     color: white;
-    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
-    max-width: 100%;
-    padding-left: 50px;
   }
   .bosques {
-    text-align: center;
     color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 15px;
-    margin-bottom: 100px;
-    max-width: 110%;
-    padding-left: 10px;
+    margin-bottom: 50px;
   }
   .imagenFuelexePortada{
     position: relative;
@@ -59,38 +57,57 @@
   .textoFuele{
     font-size: 17px;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     position: absolute;
     top: 42%;
     left: 1%;
   }
+  .fuelTrial{
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .fuelArrasa{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
   .ceroUno {
     color: whitesmoke;
     font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: start;
   }
   .ceroUnoUno {
     color: white;
     text-align: start;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 10px;
   }
   .ceroDos {
     color: whitesmoke;
     font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: start;
   }
   .ceroDosDos {
     color: white;
     text-align: start;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 10px;
   }
   .ceroTres {
     color: whitesmoke;
     font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: start;
   }
   .ceroTresTres {
     color: white;
     text-align: start;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 10px;
   }
   .portadaEcaliber{
@@ -102,12 +119,14 @@
     font-size: 15px;
     color: whitesmoke;
     position: absolute;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     left: 45%;
     top: 5%;
   }
   .textoPortadaEcaliber{
     font-size: 15px;
     color:whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     position: absolute;
     top: 50%;
     left: 22%;
@@ -133,10 +152,12 @@
   .ecaliberGeometria{
     font-size: 30px;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ecaliberChecker{
     font-size: 15px;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .contenedorBotEcaliber{
     flex-direction: column;
@@ -159,16 +180,19 @@
   .ecaliberBotGeometria{
     order:1;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 20px;
   }
   .ecaliberBotChecker{
     color: whitesmoke;
     font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .ligera{
     font-size: 16px;
     text-align: center;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin-top: 25px;
   }
   .ecalLigera{
@@ -178,9 +202,11 @@
     font-size: 15px;
     margin-top: 5px;
     color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .subTituloEcaliber{
     font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: whitesmoke;
 }
 .modoAsistencia{
@@ -188,6 +214,7 @@
   text-align: center;
   font-size: 25px;
   color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .contenedorTres {
   display: flex;
@@ -217,9 +244,11 @@
   font-weight: bold;
   color: whitesmoke;
   font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .subtituloTexto{
   color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 12px;
 }
 .ecalSlim{
@@ -232,12 +261,14 @@
   font-size: 11px;
   color: whitesmoke;
   position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   top: 30%;
 }
 .portadaEmonda{
   font-size: 15px;
   color: white;
   position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   top: 40%;
   left: 11%;
 }
@@ -245,6 +276,7 @@
   font-size: 13px;
   color: white;
   position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   top: 50%;
   left: 13%;
   
@@ -271,6 +303,7 @@
 }
 .emondaSlr{
   color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   text-align: center;
   margin-bottom: 30px;
@@ -282,6 +315,7 @@
   font-size: 15px;
   color: whitesmoke;
   padding-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .ocho{
   width: 110%;
@@ -320,13 +354,16 @@
   position: absolute; 
   color: whitesmoke;
   text-align: center; 
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   left: 20%;
 }
 .hLizzi {
   font-size: 11px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .plizzi {
   font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .containerCrockett {
   position: relative;
@@ -381,5 +418,102 @@ font-size: 15px;
 color: whitesmoke;
 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 text-align: center;
+}
+.containerRail {
+  position: relative;
+  display: inline-block;
+}
+
+.textoRail{
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.textoRailH{
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.colorBack{
+  background-color:#84afd0;
+}
+.containerRail{
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+.containerInteligente{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+.colorAsis{
+  background-color:  #1c1c1c ;
+}
+.imgChicasRail{
+  width: 100%;
+}
+.textosChicosRail{
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtextosChicosRail{
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textoRendir{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: start;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtextoRendi{
+  color: white;
+  font-size: 13px;
+  text-align: start;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textoPotencia{
+  color: whitesmoke;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedorCuatro {
+  display: flex;
+  justify-content: start;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.imgCuatro {
+  margin: 10px;
+  text-align: center;
+}
+.textoEncuentra{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
 }
 }

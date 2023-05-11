@@ -1,10 +1,35 @@
 @charset "UTF-8";
 @media (max-width: 768px) {
+  .textoIndex {
+    margin-top: 50px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .textoIndexTrek {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
   .formulario {
     width: 380px;
   }
   .img-fluid {
     width: 100%;
+  }
+  .textoRuta {
+    color: whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .subtextoRuta {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .portada {
     position: relative;
@@ -508,11 +533,36 @@
   }
 }
 @media (min-width: 1024px) {
+  .textoIndex {
+    margin-top: 70px;
+    color: whitesmoke;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .textoIndexTrek {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
   .formulario {
     width: 800px;
   }
   .img-fluid {
     width: 50%;
+  }
+  .textoRuta {
+    color: whitesmoke;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .subtextoRuta {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .portada {
     position: relative;
